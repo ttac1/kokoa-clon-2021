@@ -1,0 +1,43 @@
+html {
+  background-color: tomato;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#square {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: wheat;
+  border: solid 3px black;
+}
+
+.div-colume {
+  background-color: teal;
+}
+
+#first {
+  height: 60px;
+  width: 60px;
+  border: 3px solid white;
+}
+
+#second {
+  height: 60px;
+  width: 240px;
+  border: 3px dashed white;
+}
+
+#third {
+  height: 60px;
+  width: 60px;
+  border: 3px solid white;
+}
