@@ -1,0 +1,142 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #323439;
+}
+#main-box {
+  margin-left: 50px;
+  height: 840px;
+  width: 390px;
+  background-color: white;
+  border: solid 5px #5fd9c7;
+}
+header {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+.header-column {
+  width: 33%;
+}
+.header-column_icon {
+  font-size: 27px;
+  margin-left: 30px;
+}
+.header-column_title {
+  font-size: 27px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
+.album {
+  margin-top: 50px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.album_image {
+  height: 130px;
+  width: 160px;
+  color: white;
+  background-color: #f7bd45;
+  border: 2px solid #323439;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album_title {
+  margin-top: -30px;
+  margin-left: 30px;
+  display: inline-block;
+}
+.album_title h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.album_title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.buttons {
+  color: #323439;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 30px;
+  height: 65px;
+}
+.button-play {
+  color: #323439;
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #323439;
+  border-bottom: inset 7px #323439;
+  border-radius: 15px;
+}
+.button-play span {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.button-heart,
+.button-plus {
+  background-color: white;
+  width: 60px;
+  border: solid 2px #323439;
+  border-bottom: inset 7px #323439;
+  border-radius: 50%;
+}
+.button-heart,
+.button-plus i {
+  color: #323439;
+  font-size: 25px;
+}
+
+.song {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.song-image {
+  height: 55px;
+  width: 55px;
+  border: 2px solid #323439;
+  border-radius: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song-image_first {
+  background-color: #ee5935;
+}
+
+.song-image_second {
+  background-color: #f569cb;
+}
+.song-image_third {
+  background-color: #1947e5;
+}
+.song-image_fourth {
+  background-color: #69edd5;
+}
+
+.song-text {
+  height: 55px;
+  margin-top: -42px;
+}
+
+.song-text_singer {
+  display: block;
+  margin-top: -12px;
+}

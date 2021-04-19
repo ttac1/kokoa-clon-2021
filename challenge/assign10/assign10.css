@@ -1,0 +1,169 @@
+@import "reset.css";
+body {
+  height: 170vh;
+  width: 500px;
+}
+
+#library-screen .library-header {
+  height: 145px;
+  width: 100%;
+
+  background-color: #face48;
+
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.library-header__column {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  position: relative;
+  z-index: 2;
+  color: gray;
+}
+.search-book__input {
+  height: 70px;
+  width: 470px;
+  background-color: white;
+  border-radius: 40px;
+  border-style: none;
+  box-shadow: 0px 10px 20px rgb(230, 228, 228);
+  font-size: 18px;
+}
+.search-book__icon {
+  right: 50px;
+  top: 28px;
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.category {
+  margin: 50px 30px;
+}
+.category-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.book-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.book-info img {
+  height: 230px;
+  width: 160px;
+  border-radius: 10px;
+}
+.book-info__text {
+  margin-left: 30px;
+}
+.book-info__text-title {
+  font-size: 25px;
+}
+.book-info__text-author {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  opacity: 0.5;
+}
+.book-info__text-stars {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 18px;
+}
+.book-info__text-stars__yellow {
+  color: #face48;
+}
+.book-info__text-stars__gray {
+  color: gray;
+  opacity: 0.6;
+  margin-left: 5px;
+}
+.book-info__text-moreinfos button {
+  height: 30px;
+  width: 40%;
+  margin-right: 15px;
+  border: none;
+  background-color: #f0eeee;
+  margin-bottom: 18px;
+}
+
+.book-info__text-actions button:first-child {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: #face48;
+}
+.book-info__text-actions button:last-child {
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  margin-left: 40px;
+}
+
+.category_Adventures {
+  margin-left: 30px;
+}
+
+.book-recomendations {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.book-recomendations__column {
+  display: flex;
+
+  flex-direction: column;
+}
+.book-recomendations img {
+  height: 150px;
+  width: 110px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.book-info__text-stars {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.book-recomendations__column > .book-info__text-stars {
+  font-size: 10px;
+}
+.author-info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.author-info img {
+  height: 200px;
+  width: 165px;
+  border-radius: 10px;
+}
+.author-info__text {
+  margin-left: 30px;
+}
+.author-info__text-title {
+  font-size: 25px;
+  margin-top: 5px;
+}
+.author-info__text-author {
+  font-size: 15px;
+  color: gray;
+  display: block;
+  margin-top: 30px;
+  margin-right: 30px;
+}
