@@ -1,12 +1,12 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: cornsilk;
   height: 500vh;
 }
 
 #chat-screen .status-bar {
   top: 0;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: cornsilk;
   position: fixed;
   z-index: 2;
   box-sizing: border-box;
@@ -17,7 +17,7 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: cornsilk;
   z-index: 1;
 }
 

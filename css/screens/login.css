@@ -1,9 +1,19 @@
+@keyframes move {
+  from {
+    transform: scale(0.3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 .welcome-header {
-  margin: 90px 0px;
+  margin-top: 130px;
+  margin-bottom: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: move 0.5s linear;
 }
 .welcome-header__title {
   margin-bottom: 20px;
@@ -13,6 +23,59 @@
   width: 60%;
   color: gray;
 }
+
+.paws {
+  font-size: 20px;
+  color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+@keyframes footprint {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.paws-paw {
+  animation: footprint 2s infinite;
+}
+.paw-first {
+  position: absolute;
+
+  transform: rotateZ(200deg);
+}
+.paw-second {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30px;
+  transform: rotateZ(120deg);
+  animation-delay: 0.2s;
+}
+.paw-third {
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 40px;
+  transform: rotateZ(180deg);
+  animation-delay: 0.4s;
+}
+.paw-fourth {
+  position: absolute;
+  margin-top: 130px;
+  transform: rotateZ(200deg);
+  animation-delay: 0.6s;
+}
+
 #login-form {
   display: flex;
   flex-direction: column;
@@ -39,7 +102,7 @@
   border-color: var(--yellow);
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #6af2e5;
   cursor: pointer;
   font-size: 17px;
 }

@@ -33,7 +33,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border-radius: 8px;
   display: flex;
   justify-content: center;
